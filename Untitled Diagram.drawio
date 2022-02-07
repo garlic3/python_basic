@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T02:31:56.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="jmBYNMzVHOPtic8BUB8M" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T04:08:03.177Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="lG5gG4WzpTOyV3-tqw6d" version="16.5.3" type="github">
   <diagram id="IsGRiiZS16t_pL72Zqq2" name="Page-1">
     <mxGraphModel dx="786" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -266,6 +266,72 @@
         </mxCell>
         <mxCell id="Lt2TDRPBglZfImKO7pkN-11" value="삼각형의 면적구하기" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="40" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lt2TDRPBglZfImKO7pkN-13" target="Lt2TDRPBglZfImKO7pkN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-13" value="a와 b 출력" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-21" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lt2TDRPBglZfImKO7pkN-14" target="Lt2TDRPBglZfImKO7pkN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-23" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lt2TDRPBglZfImKO7pkN-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-14" value="a &amp;gt; b?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lt2TDRPBglZfImKO7pkN-15" target="Lt2TDRPBglZfImKO7pkN-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-15" value="a 출력" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lt2TDRPBglZfImKO7pkN-16" target="Lt2TDRPBglZfImKO7pkN-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-16" value="a와 b가 같다 출력" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lt2TDRPBglZfImKO7pkN-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="1380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="1340" />
+              <mxPoint x="300" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-18" value="b 출력" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-20" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lt2TDRPBglZfImKO7pkN-25" target="Lt2TDRPBglZfImKO7pkN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-25" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="960" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-30" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lt2TDRPBglZfImKO7pkN-28" target="Lt2TDRPBglZfImKO7pkN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-31" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lt2TDRPBglZfImKO7pkN-28" target="Lt2TDRPBglZfImKO7pkN-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-28" value="a=b?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lt2TDRPBglZfImKO7pkN-34" value="두 데이터 대소 비교" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="280" y="880" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
